@@ -1,6 +1,6 @@
 /*
-*	This is a checkers game programmed in C++ using SFML.
-*	By Zach Mertens (https://github.com/zmertens, azzach19@yahoo.com)
+*	This is a checkers game programmed in C++ with SFML visual graphics
+*	@author zmertens
 *	Uses sound effects from WitchBlast (see NOTICE in resource folder)
 *	Free software! GPL license.
 */
@@ -10,6 +10,8 @@
 
 int main()
 {
+	std::cout << "Checkers" << std::endl;
+	
 	Checkers checkers;
 	checkers.start();
 

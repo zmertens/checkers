@@ -47,7 +47,8 @@ void Checkers::start()
 	sf::Image image;
 	if(!image.loadFromFile("resources/Checkerboard_8x8_125px.png"))
 		cerr << RESOURCE_ERROR_IMAGE << endl;
-	window.setIcon(image.getSize().x, image.getSize().y, image.getPixelsPtr());
+	// Vector out of range error
+	//window.setIcon(image.getSize().x, image.getSize().y, image.getPixelsPtr());
 	
 	// load the text font
 	sf::Font font;
